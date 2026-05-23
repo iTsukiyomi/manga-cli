@@ -3,7 +3,7 @@ A terminal manga reader.
 
 
 
-## How it works/
+## How it works?
 well lets wait for me to finish this!
 
 
