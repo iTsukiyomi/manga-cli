@@ -1,0 +1,21 @@
+[project]
+name = "manga-cli"
+version = "0.1.0"
+description = "A terminal manga reader, like ani-cli but for manga"
+readme = "README.md"
+authors = [
+    { name = "iTsukiyomi"}
+]
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "textual>=8.2.7",
+]
+
+[project.scripts]
+manga-cli = "manga_cli.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
