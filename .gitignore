@@ -1,2 +1,4 @@
-src/manga_cli/__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
 .venv
